@@ -1,6 +1,11 @@
 # ignore everything else
 /* 
 
+# ignore cotinous logging
+worlds/*.log
+worlds/*.dat
+worlds/*/
+
 # DONT ignore the worlds folder and everything inside it
 !worlds/
 !worlds/**

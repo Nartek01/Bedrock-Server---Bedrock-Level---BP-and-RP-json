@@ -1,15 +1,15 @@
 # ignore everything else
 /* 
 
-# ignore cotinous logging
-worlds/*.log
-worlds/*.dat
-worlds/*/
+# DONT ignore .gitignore
+!.gitignore
 
 # DONT ignore the worlds folder and everything inside it
 !worlds/
 !worlds/**
 
-# DONT ignore .gitignore
-!.gitignore
+# ignore cotinous logging
+worlds/**/*.log
+worlds/**/*.dat
+worlds/**/db/
 

@@ -11,5 +11,6 @@
 # ignore cotinous logging
 worlds/**/*.log
 worlds/**/*.dat
+worlds/**/*.dat_old
 worlds/**/db/
 

@@ -1,0 +1,10 @@
+# ignore everything else
+/* 
+
+# DONT ignore the worlds folder and everything inside it
+!worlds/
+!worlds/**
+
+# DONT ignore .gitignore
+!.gitignore
+
